@@ -113,3 +113,14 @@ input[type=submit]:hover {
     border-top: 8px solid #4aaaa5; 
     
 }
+
+/*portfolio page*/
+
+.portfolio{
+    width: auto;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+
+
+}

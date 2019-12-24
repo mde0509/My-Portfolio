@@ -12,22 +12,46 @@
 </head>
 <body>
    
-    <!--Name,Email,Message-->
     
+    <div class="header">
 
-    <div>class="container"</div>
-        <form action="action_page.php"></form>
-        <!--form id="email-form" method="get"-->
+        <h1><span>Marc Erasmo</span> </h1>
+        <a href="#default" class="links"></a>
+        <div class="header-right">
+            <a class="active" href="#home">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="contact">Contact</a>
+        
+        </div>
+        
+            </div>
+        <!--Name,Email,Message-->
+
+    <div class="container">
+        <form action="action_page.php">
+        
 
             <label for="fname">Full Name</label>
-            <input type=" text"> id="fname" name="fname" placeholder="fname"
+            <input type="text"> id="fname" name="fullname" placeholder="Full Name"
 
             <label for="email">Email</label>
             <input type="text"> id="email" name="email" placeholder="email"
+            
+            <label for="subject">message</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
 
-            <label for="message">message</label>
-            <input type="text"> id="message" name="message" placeholder="message"
-            <!--<button type="submit">submit</button/>-->
+    <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+    
+      
+
+
+    
+    
+
     
 </body>
 </html>
